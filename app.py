@@ -106,7 +106,6 @@ DEFINIČNÍ VĚTA: Neobchoduji cenu. Obchoduji chování hráčů pod tlakem.
 """
 
 # --- 4. INICIALIZACE AI ---
-@st.cache_resource
 def get_chat_session():
     # Bezpečné načtení klíče ze Streamlit Secrets
     api_key = st.secrets["GEMINI_API_KEY"]
